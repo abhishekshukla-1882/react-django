@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React,{useState} from 'react';
 
 const Home = () => {
   
@@ -9,15 +9,17 @@ const Home = () => {
           if (response) {
               console.log('yhi');
               console.log('aya',response);
-              setTest([response])
+              setTest([response[0]])
           }
         
       }).catch(err => console.error(err));
   
       return (
-    <div>
-       {setTest}
-    </div>)
+      <div>
+        lkdjflsdjf
+        {test['name']}
+      </div>
+    )
   
 }
 
